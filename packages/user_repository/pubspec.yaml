@@ -1,0 +1,23 @@
+name: user_repository
+description: 'This package provides the user repository for the app.'
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^4.15.4
+  firebase_auth: ^4.17.4
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  
