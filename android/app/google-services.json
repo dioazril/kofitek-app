@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577731191883",
+    "project_id": "kofitek-app",
+    "storage_bucket": "kofitek-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577731191883:android:c3683a8f6fc7758280d9ce",
+        "android_client_info": {
+          "package_name": "kofitek.ai.kofitekApp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqWWi-1Ps7yOFzHFD5Ygoth_TXBaEQlKo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
