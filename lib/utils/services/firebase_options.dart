@@ -45,17 +45,17 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions web = FirebaseOptions(
     apiKey: 'AIzaSyCknKH0jaHbesiCaQM2znXYhwDy_DLJG48',
-    appId: '1:577731191883:web:9b078d098a94050080d9ce',
+    appId: '1:577731191883:web:6e7d8ceb2d755cf380d9ce',
     messagingSenderId: '577731191883',
     projectId: 'kofitek-app',
     authDomain: 'kofitek-app.firebaseapp.com',
     storageBucket: 'kofitek-app.appspot.com',
-    measurementId: 'G-Z1V0FR77KW',
+    measurementId: 'G-N3T2HM3MVW',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyDqWWi-1Ps7yOFzHFD5Ygoth_TXBaEQlKo',
-    appId: '1:577731191883:android:1b6d00783dde997a80d9ce',
+    appId: '1:577731191883:android:37ae36f7df027f2380d9ce',
     messagingSenderId: '577731191883',
     projectId: 'kofitek-app',
     storageBucket: 'kofitek-app.appspot.com',
@@ -63,7 +63,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBGbNlT5Chq_oC6a7xwCdhE58bIPh8SPHA',
-    appId: '1:577731191883:ios:675b7161db66ce8c80d9ce',
+    appId: '1:577731191883:ios:1ca6df99afa4e8f980d9ce',
     messagingSenderId: '577731191883',
     projectId: 'kofitek-app',
     storageBucket: 'kofitek-app.appspot.com',
@@ -72,7 +72,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyBGbNlT5Chq_oC6a7xwCdhE58bIPh8SPHA',
-    appId: '1:577731191883:ios:e01d81df8cda983c80d9ce',
+    appId: '1:577731191883:ios:3c43b38c76728d3080d9ce',
     messagingSenderId: '577731191883',
     projectId: 'kofitek-app',
     storageBucket: 'kofitek-app.appspot.com',
