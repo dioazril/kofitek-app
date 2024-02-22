@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kofitek_app/blocs/auth_bloc/authentication_bloc.dart';
 import 'package:user_repository/user_repository.dart';
 
+import 'screens/auth/blocs/sign_in_bloc/sign_in_bloc.dart';
 import 'screens/auth/views/welcome.dart';
 import 'screens/home/views/home_screen.dart';
 import 'utils/shared_utils.dart';
@@ -31,12 +32,15 @@ class MyAppView extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Kofitek App',
       theme: lightTheme,
-      darkTheme: darkTheme,
-      themeMode: ThemeMode.system,
       home: BlocBuilder<AuthenticationBloc, AuthenticationState>(
           builder: (context, state) {
         if (state.status == AuthenticationStatus.authenticated) {
-          return const HomeScreen();
+          return BlocProvider(
+            create: (context) => SignInBloc(
+              context.read<AuthenticationBloc>().userRepository,
+            ),
+            child: const HomeScreen(),
+          );
         } else {
           return const WelcomeScreen();
         }
