@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyBGbNlT5Chq_oC6a7xwCdhE58bIPh8SPHA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>577731191883</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kofitek.ai.kofitekApp.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>kofitek-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kofitek-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:577731191883:ios:e01d81df8cda983c80d9ce</string>
+</dict>
+</plist>
