@@ -64,7 +64,7 @@ class FirebaseUserRepository implements UserRepository {
   Future<void> signIn(String email, String password) async {
     try {
       // Panggil fungsi sign in Firebase Auth dengan email dan password
-      await _firebaseAuth.createUserWithEmailAndPassword(
+      await _firebaseAuth.signInWithEmailAndPassword(
         email: email,
         password: password,
       );
