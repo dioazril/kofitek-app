@@ -41,7 +41,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
             signUpRequired = true;
           });
         } else if (state is SignUpFailure) {
-          return;
+          setState(() {
+            signUpRequired = false;
+          });
         }
       },
       child: Form(

@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:kofitek_app/utils/shared_utils.dart';
 import '../../../widgets/custom_text_field.dart';
 import '../blocs/sign_in_bloc/sign_in_bloc.dart';
 
@@ -45,7 +46,7 @@ class _SignInScreenState extends State<SignInScreen> {
             children: [
               const SizedBox(height: 20),
               SizedBox(
-                  width: MediaQuery.of(context).size.width * 0.9,
+                  width: kWidth(context) * 0.9,
                   child: CustomTextField(
                       controller: emailController,
                       hintText: 'Email',
@@ -64,7 +65,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       })),
               const SizedBox(height: 10),
               SizedBox(
-                width: MediaQuery.of(context).size.width * 0.9,
+                width: kWidth(context) * 0.9,
                 child: CustomTextField(
                   controller: passwordController,
                   hintText: 'Password',
@@ -100,7 +101,7 @@ class _SignInScreenState extends State<SignInScreen> {
               const SizedBox(height: 20),
               !signInRequired
                   ? SizedBox(
-                      width: MediaQuery.of(context).size.width * 0.5,
+                      width: kWidth(context) * 0.5,
                       child: TextButton(
                           onPressed: () {
                             if (_formKey.currentState!.validate()) {
