@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:577731191883:android:c3683a8f6fc7758280d9ce",
+        "mobilesdk_app_id": "1:577731191883:android:1b6d00783dde997a80d9ce",
         "android_client_info": {
-          "package_name": "kofitek.ai.kofitekApp"
+          "package_name": "kofitek.ai.kofitek_app"
         }
       },
       "oauth_client": [],
