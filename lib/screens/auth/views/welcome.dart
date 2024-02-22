@@ -47,7 +47,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
               Align(
                 alignment: const AlignmentDirectional(2.7, -1.2),
                 child: Container(
-                  height: kWidth(context) / 1.3,
+                  height: kHeight(context) / 1.3,
                   width: kWidth(context) / 1.3,
                   decoration: BoxDecoration(
                       shape: BoxShape.circle,
