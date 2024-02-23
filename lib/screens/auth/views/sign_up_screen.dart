@@ -3,7 +3,7 @@ import 'package:kofitek_app/utils/media_query.dart';
 import 'package:user_repository/user_repository.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import '../../../widgets/custom_text_field.dart';
+import '../widgets/custom_text_field.dart';
 import '../blocs/sign_up_bloc/sign_up_bloc.dart';
 
 class SignUpScreen extends StatefulWidget {

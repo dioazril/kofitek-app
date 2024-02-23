@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kofitek_app/utils/shared_utils.dart';
-import '../../../widgets/custom_text_field.dart';
 import '../blocs/sign_in_bloc/sign_in_bloc.dart';
+import '../widgets/shared_auth_widgets.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
