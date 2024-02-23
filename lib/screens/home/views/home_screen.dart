@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:kofitek_app/screens/home/views/details_screen.dart';
 import '../../auth/blocs/sign_in_bloc/sign_in_bloc.dart';
 import '../widgets/shared_home_widgets.dart';
 
@@ -32,18 +33,22 @@ class HomeScreen extends StatelessWidget {
           ),
           itemCount: 5,
           itemBuilder: (context, int i) {
-            return Container(
-              decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(20),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.grey.shade500,
-                      blurRadius: 5,
-                      offset: const Offset(1, 3),
-                    )
-                  ]),
-              child: const ItemColumns(),
+            return Material(
+              elevation: 3,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: InkWell(
+                borderRadius: BorderRadius.circular(20),
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const DetailScreen(),
+                      ));
+                },
+                child: const ItemColumns(),
+              ),
             );
           },
         ),
